@@ -16,9 +16,9 @@
   --logo-accent-color: #000;
   --address-secondary-color: rgba(255, 255, 255, 0.6);
   --bgc-dark-section: #2f303a;
-  --border-cl: #EEEEEE;
+  --border-cl: #eeeeee;
   --bd-section-team: #f5f4fa;
-  --header-border-cl: #ECECEC;
+  --header-border-cl: #ececec;
   --bgc-secondary-section: #e5e5e5;
 }
 
@@ -47,7 +47,13 @@ body {
   padding: 0;
   margin: 0;
 }
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   padding: 0;
   margin: 0;
 }
@@ -59,7 +65,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 
-  background-color: var(--bgc-secondary-section);
+  background-color: var(--accent-bgc-color);
 }
 .secondary-section.no-padding {
   padding-top: 0;
@@ -70,7 +76,6 @@ img {
   padding-bottom: 60px;
 
   background-color: var(--bgc-dark-section);
-  
 }
 .section-team {
   background-color: var(--bd-section-team);
@@ -91,7 +96,7 @@ img {
 .logo {
   padding-top: 24px;
   padding-bottom: 25px;
-  
+
   color: var(--logo-accent-color);
 
   font-family: Raleway, sans-serif;
@@ -205,7 +210,8 @@ img {
   margin-right: auto;
   margin-left: auto;
   padding: 10px 32px;
-  
+  border: none;
+
   color: var(--accent-bgc-color);
   background-color: var(--accent-color);
 
@@ -221,6 +227,7 @@ img {
 }
 .accent-text {
   padding: 6px 22px;
+  border: none;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -247,7 +254,6 @@ img {
   color: var(--title-text-color);
   line-height: 1.14;
   text-transform: uppercase;
-
 }
 .benefits-content {
   display: flex;
@@ -272,7 +278,6 @@ margin-left: 30px;
   text-align: center;
 }
 .section-text {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -282,8 +287,16 @@ margin-left: 30px;
   line-height: 1.18;
   text-align: center;
 }
+.our-product {
+  padding: 30px 70px;
+}
+.our-des {
+  padding: 30px 62px 30px 63px;
+}
+.our-dev {
+  padding: 30px 61px 30px 62px;
+}
 .profession {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -297,7 +310,7 @@ margin-left: 30px;
 .crewman-card {
   display: flex;
 }
-.crewman:not(:last-child){
+.crewman:not(:last-child) {
   margin-right: 30px;
 }
 /*work service*/
@@ -308,13 +321,9 @@ margin-left: 30px;
   margin-right: 30px;
 }
 .project {
-width: 370px;
-border-bottom: 1px solid var(--border-cl);
-border-left: 1px solid var(--border-cl);
-border-right: 1px solid var(--border-cl);
+  width: 370px;
 }
 .project-name {
-  padding-top: 20px;
   margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
@@ -325,6 +334,16 @@ border-right: 1px solid var(--border-cl);
   font-size: 16px;
   line-height: 1.88;
 }
+.project-idea {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border-cl);
+  border-left: 1px solid var(--border-cl);
+  border-right: 1px solid var(--border-cl);
+}
+.link-item {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
 /*work-examples*/
 .work-examples {
   display: flex;
@@ -333,7 +352,7 @@ border-right: 1px solid var(--border-cl);
 }
 
 .work-examples .item {
-  flex-basis: calc((100% - 240px)/9);
+  flex-basis: calc((100% - 240px) / 9);
 }
 
 /*footer*/
@@ -366,7 +385,6 @@ border-right: 1px solid var(--border-cl);
 .footer-address {
   display: block;
 }
-
 
 .container {
   margin-left: auto;
