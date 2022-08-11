@@ -237,6 +237,10 @@ img {
 .accent {
   margin-bottom: 50px;
 }
+.button,
+.accent-text {
+  border-radius: 4px;
+}
 .list .accent-text:hover,
 .list .accent-text:focus {
   color: var(--accent-bgc-color);
